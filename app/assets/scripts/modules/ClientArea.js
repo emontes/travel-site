@@ -17,7 +17,7 @@ class ClientArea {
   }
 
   sendRequest() {
-    Axios.post('https://blissful-banach-28c416.netlify.app/.netlify/functions/secret-area', {password: this.field.value}).then(response => {
+    Axios.post('https://ade-travel-site.netlify.app/.netlify/functions/secret-area', {password: this.field.value}).then(response => {
       this.form.remove()
       this.contentArea.innerHTML = response.data
     }).catch(() => {
