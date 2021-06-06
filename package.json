@@ -2,8 +2,8 @@
   "name": "travel-site",
   "version": "1.0.0",
   "scripts": {
-    "dev": "webpack-dev-server",
-    "build": "webpack",
+    "dev": "node init && webpack-dev-server",
+    "build": "node init && webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
